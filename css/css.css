@@ -5,7 +5,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 100%;
     text-align: center;
-    background: rgb(0,255,51);
+    background: rgb(0, 255, 51);
     background: linear-gradient(0deg, rgba(0,255,51,1) 0%, rgba(0,179,125,1) 30%, rgb(255, 0, 142) 70%, rgba(255,115,0,1) 100%);
     opacity: 1;
     top: 0;
@@ -53,11 +53,11 @@ body {
 
 a:link {color: #00b37d;}
 
-a:visited {color: rgb(255, 115, 0);}
+a:visited {color: #ff7300;}
 
 a:hover {color: #ff008e;}
 
-a:active {color: yellow;}
+a:active {color: #ff008e;}
 
 table, th, td, tr {
   width: 100%;
