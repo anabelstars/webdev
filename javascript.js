@@ -128,3 +128,8 @@ function parity(num) {
 		if (ageDays>1) document.write("s");
 	}
 }
+
+//calculate the area of a triangle
+
+// print fibonacci into the console.log up to position "n"
+// hint: append an array
