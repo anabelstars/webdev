@@ -133,3 +133,34 @@ function parity(num) {
 
 // print fibonacci into the console.log up to position "n"
 // hint: append an array
+
+now = new Date();
+bday = new Date (1989, 10, 08)
+age = now - bday;
+seconds = age / 1000
+minutes = seconds / 60
+hours = minutes / 60
+days = hours / 24
+years = days / 365
+
+document.write("You are: " + years + "and" + days + " days and " + minutes + "minutes");
+
+
+
+// triangle
+function triangle (a, b,){
+  return (a*b)/2;
+}
+triangle (4,8);
+
+// fibonacci
+
+function fib(n) {
+  ar = [0,1];
+  i = 0;
+  while (i < n){
+    ar.push(ar[ar.length - 1] + ar[ar.length - 2]);
+    i++;
+    document.write(ar);
+  }
+}
