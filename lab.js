@@ -4,7 +4,7 @@
 // random interger between 0-7 <-- array.length 
 // math.random() -> random float between 0-1
 // math.random() * lottery.length
-// =  Math.floor(math.random() * lottery.length)
+// =  Math.floor(math.random() * lottery.length) 
 
 
 function lottery(names) {
@@ -31,20 +31,17 @@ function pet(animals){
 var animals = ['cat', 'dog', 'hamster', 'ferret', 'bird', 'turtle']
 console.log(pet(animals));
 console.log(pet(animals));
-console.log(pet(animals));
-console.log(pet(animals));
-console.log(pet(animals));
-console.log(pet(animals));
 
-function anabel(hungry) {
-    var i = Math.floor(math.random() * hungry.length);
-    console.log('Anabel says: ' + i);
-    if (hungry = true) {
-        return console.log('feedMePls');
-    }
-    else (hungry = false) {
-    return console.logs('snasccTime?');
-    }
-    }
-    var hungry = [true, false]
-    console.log(anabel(hungry));
+
+// interrupting loops
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+for (var idx in days) {
+    if (days [idx] == "Wednesday") break;
+    document.write ("it's " + days[idx] + "<br>");
+}
+// using a continue if the day is Wednesday
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+for (var idx in days) {
+    if (days [idx] == "Wednesday") continue;
+    document.write ("it's " + days[idx] + "<br>");
+}
